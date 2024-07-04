@@ -3,7 +3,7 @@ import { Container, Flex } from "@chakra-ui/react";
 function App() {
   // => 10
   return (
-    <Container>
+    <Container backgroundColor={"brand.100"} maxW={"container.lg"}>
       <Flex my={"4"} justifyContent={"center"} alignItems={"center"}>
         <iframe
           src="https://www.stack.so/leaderboard/thecreative/embed"
